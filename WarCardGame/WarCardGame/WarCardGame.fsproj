@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="Components.fs" />
+    <Compile Include="RoundFunctions.fs" />
+    <Compile Include="GameFunctions.fs" />
+    <Compile Include="GameSetup.fs" />
   </ItemGroup>
 
 </Project>
