@@ -1,8 +1,6 @@
-﻿using System;
+﻿namespace SqlCleanup;
 
-namespace SqlCleanup {
-    public class RegistrationExistsException : Exception {
-        public RegistrationExistsException(Type type) 
-            : base($"Type {type.Name} already registered") {}
-    }
+public class RegistrationExistsException : Exception {
+    public RegistrationExistsException(Type type)
+        : base($"Type {type.Name} already registered") { }
 }
